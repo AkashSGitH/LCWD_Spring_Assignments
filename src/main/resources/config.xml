@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+">
+
+    <context:component-scan  base-package="com.core.concepts"/>
+
+    <!-- bean definitions here -->
+
+<!--    <bean id="engine" class="com.core.concepts.Engine">-->
+
+<!--    </bean>-->
+
+<!--    <bean id="car" class="com.core.concepts.Car">-->
+<!--&lt;!&ndash;        <property name="engine" ref="engine"/>&ndash;&gt;-->
+<!--        <constructor-arg name="engine" ref="engine" />-->
+<!--        &lt;!&ndash;  Note : In order to use <property> ie; setter injection, setters must be present else error      &ndash;&gt;-->
+<!--    </bean>-->
+
+
+<!--    <bean id="userService" class="com.core.assignment1.service.UserServiceImpl" >-->
+
+<!--    </bean>-->
+
+<!--    <bean id="userController" class="com.core.assignment1.controller.UserController" >-->
+<!--        <property name="userService" ref="userService" />-->
+<!--    </bean>-->
+
+</beans>
